@@ -1,0 +1,25 @@
+body{
+	font-family: Arial, "Microsoft YaHei", sans-serif;
+}
+
+ul{
+	list-style-type: none;
+	margin-left: -35px;
+}
+
+.li_key{
+	font-weight: bold;
+}
+
+.li_key + span {
+	margin-right:20px;
+	margin-left: 10px;
+}
+
+.title{
+	font-weight: bold;
+}
+
+.title + div{
+	margin-bottom: 15px;
+}
