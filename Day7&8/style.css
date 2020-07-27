@@ -1,0 +1,83 @@
+
+#first .left{
+	float: left;
+	background-color: yellow;
+	width: 30%;
+	height: 200;
+}
+
+#first .right{
+	background-color: green;
+	height: 200;
+}
+
+#second .left{
+	float: left;
+	background-color: green;
+	width: 300px;
+	height: 200;
+}
+
+#second .right{
+	background-color: yellow;
+	height: 200;
+}
+
+#third{
+	position: relative;
+}
+
+
+#third .left{
+	background-color: yellow;
+	height: 200px;
+	margin-right: 300px;
+}
+
+#third .right{
+	background-color: green;
+	width:300px;
+	height: 200px;
+	position: absolute;
+	top: 38;
+	right: 0;
+}
+
+#four .left{
+	width:200px;
+	height: 200px;
+	float: left;
+	background-color: green;
+}
+
+#four .center{
+	height: 200px;
+	background-color: gray;
+}
+
+#four .right{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	float: right;
+}
+
+#five .left{
+	width:200px;
+	height: 200px;
+	float: left;
+	background-color: yellow;
+}
+
+#five .center{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: gray;
+}
+
+#five .right{
+	height: 200px;
+	background-color: green;
+}
+
