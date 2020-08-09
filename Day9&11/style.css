@@ -1,0 +1,150 @@
+.hello {
+	position: absolute;
+	height: 495px;
+	width: 100%;
+	background-color: #141414;
+	opacity: 0.65;
+}
+
+.hello p:first-child {
+	margin-top: 104px;
+	text-align: center;
+	font-size: 31px;
+	color: #ffffff;
+}
+
+.hello :nth-child(2) {
+	margin-top: 43px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 10px;
+	color: #ffffff;
+	opacity: 0.7;
+}
+
+.account {
+	width: 485px;
+	height: 125px;
+	margin-top: 52px;
+	margin-left: calc((100% - 485px) / 2);
+	border-radius: 1px;
+	border: solid 1px #ffffff;
+}
+
+.account :nth-child(1) {
+	display: inline-block;
+	margin-top: 31px;
+	width: 100%;
+	text-align: center;
+	font-size: 8px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+.account :nth-child(2) {
+	display: inline-block;
+	margin-top: 10px;
+	width: 100%;
+	font-size: 6px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	opacity: 0.3;
+}
+
+#name {
+	width: 146px;
+	height: 25px;
+	margin-left: 50px;
+	margin-top: 23px;
+	border-radius: 1px;
+	border: solid 1px #ffffff 0.2;
+	font-size: 7px;
+	color: #ffffff;
+}
+}
+
+#password {
+	width: 146px;
+	height: 25px;
+	margin-left: 15px;
+	margin-top: 23px;
+	border-radius: 1px;
+	border: solid 1px #ffffff 0.2;
+	font-size: 7px;
+	color: #ffffff;
+	opacity: 0.3;
+}
+
+#signUp {
+	width: 63px;
+	height: 25px;
+	margin-left: 15px;
+	margin-top: 23px;
+	background-color: #ffffff;
+	border-radius: 1px;
+	font-size: 6px;
+	letter-spacing: 1px;
+	color: #141414;
+}
+
+.sections {
+	position: absolute;
+	height: 355px;
+	width: 100%;
+	margin-top: 495px;
+}
+
+.sections :nth-child(1) {
+	margin-top: 45px;
+	text-align: center;
+	font-size: 7px;
+	letter-spacing: 1px;
+	color: #141414;
+}
+
+.sections :nth-child(2) {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 21px;
+	color: #141414;
+}
+
+.sectionsContainer {
+	margin-top: 43px;
+	margin-left: 148px;
+	margin-right: 148px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionsContainer div {
+	flex: 1 212px;
+	justify-content: space-between;
+	margin-left: 90px;
+}
+
+.sections div img {
+	float: left;
+	width: 25px;
+	height: 25px;
+	background-color: #141414;
+}
+
+
+.sectionsContainer div :nth-child(2) {
+	margin-top: 0;
+	margin-left: 40px;
+	font-size: 10px;
+	color: #141414;
+	text-align: left;
+
+}
+
+.sectionsContainer div :nth-child(3) {
+	margin-left: 40px;
+	font-size: 8px;
+	color: #141414;
+	opacity: 0.7;
+	text-align: left;
+}
+
