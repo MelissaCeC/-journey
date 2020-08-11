@@ -1,7 +1,9 @@
+
 .hello {
-	position: absolute;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
 	height: 495px;
-	width: 100%;
 	background-color: #141414;
 	opacity: 0.65;
 }
@@ -13,7 +15,7 @@
 	color: #ffffff;
 }
 
-.hello :nth-child(2) {
+.hello:nth-child(2) {
 	margin-top: 43px;
 	margin: 0 auto;
 	text-align: center;
@@ -29,9 +31,10 @@
 	margin-left: calc((100% - 485px) / 2);
 	border-radius: 1px;
 	border: solid 1px #ffffff;
+	margin-bottom: 105px;
 }
 
-.account :nth-child(1) {
+.account:nth-child(1) {
 	display: inline-block;
 	margin-top: 31px;
 	width: 100%;
@@ -41,7 +44,7 @@
 	color: #ffffff;
 }
 
-.account :nth-child(2) {
+.account:nth-child(2) {
 	display: inline-block;
 	margin-top: 10px;
 	width: 100%;
@@ -60,7 +63,6 @@
 	border: solid 1px #ffffff 0.2;
 	font-size: 7px;
 	color: #ffffff;
-}
 }
 
 #password {
@@ -85,13 +87,6 @@
 	font-size: 6px;
 	letter-spacing: 1px;
 	color: #141414;
-}
-
-.sections {
-	position: absolute;
-	height: 355px;
-	width: 100%;
-	margin-top: 495px;
 }
 
 .sections :nth-child(1) {
@@ -148,3 +143,90 @@
 	text-align: left;
 }
 
+.policies {
+	margin: 0;
+	display: flex;
+	background-color: #141414;
+	opacity: 0.65;
+}
+
+.policies div {
+	flex: 1;
+}
+
+.policies div p:nth-of-type(1) {
+	margin-top: 92px;
+	margin-left: 158px;
+	font-size: 21px;
+	color: #ffffff;
+}
+
+.policies div p:nth-of-type(2) {
+	margin-top: 24px;
+	margin-left: 158px;
+	font-size: 9px;
+	color: #ffffff;
+	opacity: 0.7;
+}
+
+.policies a {
+	display: inline-block;
+	margin-top: 29px;
+	margin-bottom: 93px;
+	border-radius: 1px;
+	font-size: 6px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.policies a:nth-of-type(1) {
+	margin-left: 158px;
+	padding: 13px 19px;
+	background-color: #ffffff;
+	color: #141414;
+}
+
+.policies a:nth-of-type(2) {
+	margin-left: 15px;
+	padding: 13px 14px;
+	border: solid 1px #ffffff;
+	opacity: 0.3;
+	color: #ffffff;
+}
+
+.policies div:nth-of-type(2) {
+	margin: 52px 0 48px 38px;
+	opacity: 0.7;
+	border: solid 1px #ffffff;
+	border-radius: 20px;
+}
+
+.policies div:nth-of-type(2) div {
+	margin: 15px 0 15px 30px;
+	background-color: white;
+	opacity: 1;
+}
+
+.products {
+	height: 290px;
+	width: 100%;
+	margin-top: 0;
+	border-bottom: solid 1px #ffffff;
+}
+
+.products p {
+	margin-top: 50px;
+	font-size: 21px;
+	color: #141414;
+	text-align: center;
+}
+
+.products > div {
+	display: flex;
+	margin-left: 160px;
+	margin-right: 160px;
+}
+
+.products div div {
+	flex: 1;
+}
