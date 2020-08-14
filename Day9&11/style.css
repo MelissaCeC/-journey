@@ -315,3 +315,81 @@
 	background-color: #141414;
 	opacity: 0.65;
 }
+
+#contacts {
+	display: flex;
+}
+
+#contacts > div {
+	flex: 1;
+}
+
+#contacts div:first-child {
+	border-radius: 5px;
+	border: solid 1px #141414;
+	margin: 10% 8% 10% 20%;
+}
+
+#contacts div:nth-child(2) {
+	margin-right: 20%;
+}
+
+#contacts div:first-child p {
+	font-size: 8px;
+	letter-spacing: 1px;
+	color: #141414;
+	text-align: center;
+	margin-top: 9%;
+}
+
+#contacts div input {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+#contacts div textarea {
+	border-radius: 1px;
+	border: solid 1px #262321;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*button*/
+#contacts div input {
+	/*margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	background-color: #141414;
+	border-radius: 1px;*/
+}
+
+#contacts div:nth-child(2) > p:nth-of-type(1) {
+	font-size: 21px;
+	color: #141414;
+	margin-top: 23%;
+}
+
+#contacts div:nth-child(2) p:nth-of-type(2) {
+	font-size: 8px;
+	color: #141414;
+	opacity: 0.7;
+	margin-top: 6%;
+}
+
+#contacts ul {
+	list-style-type: none;
+}
+
+#contacts ul li p {
+	font-size: 8px;
+	color: #141414;
+}
+
+#contacts img {
+	width: 12px;
+	height: 12px;
+	object-fit: contain;
+	float: left;
+}
