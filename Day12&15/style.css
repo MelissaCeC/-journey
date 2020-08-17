@@ -1,0 +1,72 @@
+#navBar {
+	float: left;
+	width: 50px;
+	height: 100%;
+	background-color: #1d2531;
+}
+
+#navBar > img {
+	width: 30px;
+	height: 30px;
+	margin: 10px 10px 10px 10px;
+}
+
+#navBar #bottomBar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#navBar #grid {
+	width: 8px;
+	height: 8px;
+	margin: 13px 8px 13px 18px;
+}
+
+#navBar #setting {
+	width: 8px;
+	height: 8px;
+	margin: 13px 13px 13px 0;
+}
+
+#menu {
+	width: 140px;
+	height: 100%;
+	background-color: #222c3c;
+}
+
+#menu > div {
+	display: flex;
+	flex-direction: column;}
+
+#menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 15px;
+}
+
+#menu ul li {
+	margin-bottom: 15px;
+	font-family: ProximaNova-Semibold;
+	font-size: 7px;
+	color: #b7c0cd;
+}
+
+#menu ul li:first-child {;
+	font-size: 6px;
+	color: #5b6779;
+}
+
+#menu ul li img {
+	width: 8px;
+	height: 8px;
+	float: right;
+}
+
+#menu ul:nth-of-type(1) {
+	border-bottom: solid 1px #5b6779;
+}
+
+#menu ul:nth-of-type(2) {
+	border-bottom: solid 1px #5b6779;
+}
