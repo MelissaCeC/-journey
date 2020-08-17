@@ -187,17 +187,11 @@
 }
 
 #policies .infoContainer {
-	margin: 52px 0 48px 38px;
-	background-image: url("images/ipad.png");
-	background-repeat: no-repeat;
+	margin: 52px -10% 48px 38px;
 }
 
-#policies .infoContainer > div {
-	display: flex;
-}
-
-#policies .infoContainer div div {
-	flex: 1;
+#policies .infoContainer > img {
+	object-fit: contain;
 }
 
 #products {
