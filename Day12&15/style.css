@@ -30,9 +30,10 @@
 }
 
 #menu {
-	width: 140px;
+	width: 200px;
 	height: 100%;
 	background-color: #222c3c;
+	float: left;
 }
 
 #menu > div {
@@ -47,17 +48,23 @@
 
 #menu ul li {
 	margin-bottom: 15px;
-	font-family: ProximaNova-Semibold;
 	font-size: 7px;
 	color: #b7c0cd;
 }
 
-#menu ul li:first-child {;
+#menu ul li:first-child {
 	font-size: 6px;
 	color: #5b6779;
 }
 
-#menu ul li img {
+#menu ul:nth-of-type(2) img {
+	width: 9px;
+	height: 9px;
+	object-fit: contain;
+	margin-right: 6px;
+}
+
+#menu ul li:first-child > img {
 	width: 8px;
 	height: 8px;
 	float: right;
@@ -69,4 +76,109 @@
 
 #menu ul:nth-of-type(2) {
 	border-bottom: solid 1px #5b6779;
+}
+
+#menu #capacity {
+	left: 65px;
+	bottom: 18px;
+	position: absolute;
+}
+
+#menu #capacity > span {
+	font-size: 7px;
+	color: #ffffff;
+}
+
+#menu #capacity #base {
+	margin: 7px 0 0 0;
+	height: 2px;
+	background-color: #475364;
+	border-radius: 1px;
+	/*opacity: 0.3;*/
+}
+
+#menu #capacity #fill {
+	width: 20px;
+	height: 2px;
+	background-image: linear-gradient(90deg, 
+		#7f5be6 1%, 
+		#9d8fe3 100%);
+	border-radius: 1px;
+}
+
+#content {
+	height: 100%;
+}
+
+#content #header {
+	height: 40px;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 1px 0px 
+		rgba(0, 0, 0, 0.05);
+}
+
+#content #header > span {
+	font-size: 12px;
+	color: #354052;
+	line-height: 40px;
+	margin-left: 15px;
+}
+
+#content #header > div {
+	float: right;
+}
+
+#content #header img:first-child {
+	width: 25px;
+	height: 25px;
+	margin: 7px 8px 8px 0;
+}
+
+#content #header img:last-child {
+	width: 6px;
+	height: 6px;
+	margin: 16px 18px 16px 20px;
+}
+
+#content #header > div > span:nth-of-type(1) {
+	display: inline-block;
+	font-size: 8px;
+	color: #2399f1;
+	margin: 0 36px 27px 8px;
+	box-sizing: border-box;
+}
+
+#content #header div span:nth-of-type(2) {
+	display: inline-block;
+	font-size: 7px;
+	color: #b5b5b5;
+}
+
+#content #list {
+	float: left;
+	width: 200px;
+	height: calc(100% - 40px);
+	border-right: solid 1px #e6e9ec;
+}
+
+#content .search {
+	border-bottom: solid 1px #e6e9ec;
+}
+
+#content #list .search input {
+	margin: 8px 15px 9px 15px;
+	height: 18px;
+	border-radius: 2px;
+	border: solid 1px #e5e8ee;
+}
+
+#content #list .search input::placeholder {
+	font-size: 7px;
+	color: #9fa9ba;
+	opacity: 0.8;
+}
+
+#content #detail {
+	margin-left: 450px;
+	height: calc(100% - 40px);
 }
