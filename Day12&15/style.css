@@ -94,7 +94,6 @@
 	height: 2px;
 	background-color: #475364;
 	border-radius: 1px;
-	/*opacity: 0.3;*/
 }
 
 #menu #capacity #fill {
@@ -378,9 +377,10 @@
 }
 
 #content #detail .messageBar input[type="text"] {
+	margin-left: -1px;
+	height: 27px;
+	width: calc(100% - 27px);
 	background-color: #ffffff;
 	border-radius: 2px;
 	border: solid 1px #dfe3e9;
-	margin: 0;
-	height: 27px;
 }
