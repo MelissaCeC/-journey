@@ -196,6 +196,10 @@
 	margin: 0;
 }
 
+#content #list ul::-webkit-scrollbar {
+    display: none;
+}
+
 #content #list ul li {
 	border-bottom: solid 1px #e6e9ec;
 	padding: 16px 23px 23px 29px;

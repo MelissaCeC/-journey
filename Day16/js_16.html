@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../Day5&6/style_3.css">
+        <script type="text/javascript">
+            function hello() {
+                document.getElementById("helloSpan").innerHTML = "Hello, 你好！";
+            }
+        </script>
+    </head>
+    <body>
+        <div id="content">
+            <div style="background-color: gray">
+                <h1 style="display: inline">简历</h1>
+                <button id="helloButton" onclick="hello()" style="float: right">打招呼</button>
+                <span id="helloSpan" style="float: right; color: white"></span>
+            </div>
+            <div id="main">
+                <ul>
+                    <li>
+                        <h2>基本信息</h2>
+                        <div>
+                            <span class="li_key">姓名</span>
+                            <span>张三</span>
+                            <span class="li_key">性别</span>
+                            <span>男</span>
+                            <span class="li_key">应聘职位</span>
+                            <span>Web前端工程师</span>
+                        </div>
+                    </li>
+                    <li>
+                        <h2>联系方式</h2>
+                        <div>
+                            <span class="li_key">手机</span>
+                            <span>12312341234</span>
+                            <span class="li_key">Email</span>
+                            <span><a href=“joinefe@baidu.com”>joinefe@baidu.com</a></span>
+                            <span class="li_key">个人主页</span>
+                            <span><a href="">Github</a></span>
+                        </div>
+                    </li>
+                    <li>
+                        <h2>能力描述</h2>
+                        <div>
+                            <div class="title">技术能力</div>
+                            <div>熟练掌握HTML，CSS，JavaScript</div>
+                            <div class="title">综合能力</div>
+                            <div>良好的沟通，主动积极，努力勤奋</div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2>教育经历</h2>
+                        <div>
+                            <div class=title>本科</div>
+                            <div>百度前端技术学院小薇学院</div>
+                            <div class="title">研究生</div>
+                            <div>百度前端技术学院大斌学院</div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2>项目经历</h2>
+                        <div>
+                            <div class="title">小度小度</div>
+                            <div>作为前端工程师角色参与了ABC组件的开发</div>
+                            <div class="title">SAN Doc</div>
+                            <div>作为文档工程师参与了SAN Doc编写</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
