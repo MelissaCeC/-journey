@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<style>
+    		table,
+    		td {
+    			border: 1px solid #333;
+    		}
+    	</style>
+    </head>
+    <body>
+    	<table id="mulTable">
+    		<tbody>
+    			<tr>
+    				<th colspan="9">99乘法表</th>
+    			</tr>
+    		</tbody>
+    	</table>
+        <script type="text/javascript">
+            function mulTable() {
+            	let tableObj = document.getElementById("mulTable");
+				for (i = 1; i <= 9; i++) {
+					let trObj = tableObj.insertRow(-1);
+					for (j = 1; j <= 9; j++) {
+						let cell = trObj.insertCell(-1);
+						cell.innerHTML = j + "*" + i + "=" + j*i;
+					}
+				}
+			}
+			mulTable();
+        </script>
+    </body>
+</html>
