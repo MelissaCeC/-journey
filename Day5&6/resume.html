@@ -61,6 +61,34 @@
             </ul>
         </div>
     </div>
+
+    <script type="text/javascript">
+        function getTimeString() {
+            let curTime = new Date();
+            let hour = curTime.getHours();
+            var text;
+            if (hour >= 0 && hour <= 10) {
+                text = "早上好";
+            } else if (hour > 10 && hour <= 14) {
+                text = "上午好";
+            } else if (hour > 14 && hour <= 18) {
+                text = "下午好";
+            } else if (hour > 18 && hour <= 24) {
+                text = "晚上好";
+            }
+            return text;
+        }
+
+        function sayHello() {
+            let spanObj = document.createElement("span");
+            spanObj.innerHTML = "欢迎你," + getTimeString() + " !";
+            let firstChild = document.body.firstChild;
+            document.body.insertBefore(spanObj, firstChild);
+        }
+
+        sayHello();
+        
+    </script>
 </body>
 
 </html>
