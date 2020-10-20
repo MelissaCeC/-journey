@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+</head>
+<body>
+	<input id="name" type="text">
+	<button id="submit-btn">Submit</button>
+
+	<script type="text/javascript">
+		const btn = document.querySelector("button");
+		const nameInput = document.querySelector("#name");
+		function printContent() {
+			console.log(nameInput.value);
+		}
+		btn.click = printContent();
+
+		nameInput.onkeypress = function() {
+			if(this.keyCode == 13) {
+				printContent()
+			}
+			if (this.keyCode == 12) {
+				nameInput.value = "";
+			}
+		}
+	</script>
+</body>
+</html>
