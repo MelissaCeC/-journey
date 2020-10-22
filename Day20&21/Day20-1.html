@@ -16,11 +16,11 @@
 		}
 		btn.click = printContent();
 
-		nameInput.onkeypress = function() {
-			if(this.keyCode == 13) {
+		nameInput.onkeypress = function(e) {
+			if(e.keyCode == 13) {
 				printContent()
 			}
-			if (this.keyCode == 12) {
+			if (e.keyCode == 27) {
 				nameInput.value = "";
 			}
 		}
