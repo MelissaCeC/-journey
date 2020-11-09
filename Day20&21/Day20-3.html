@@ -32,21 +32,6 @@
     <p class="color-picker"></p>
 
     <script>
-        // var list = document.querySelectorAll("li");
-        // for (var i = i = 0, len = list.length; i < len; i++) {
-        //     list[i].onclick = function(e) {
-        //         var t = e.target;
-        //         var c = t.style.backgroundColor;
-        //         var p = document.getElementsByClassName("color-picker")[0]
-        //         p.innerHTML = c;
-        //         t.style.backgroundColor = p.style.color;
-        //         p.style.color = c;
-        //         p.style.backgroundColor = c;
-        //     }
-        // }
-
-
-        // window.load = function() {
             var ulNode = document.querySelector(".palette");
             console.log("load");
             ulNode.addEventListener("click", function(e){
@@ -60,7 +45,6 @@
                 p.style.backgroundColor = c;
                 }
             }, false);
-        // }
     </script>
 </body>
 </html>
